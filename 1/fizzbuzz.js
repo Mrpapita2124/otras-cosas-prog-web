@@ -7,6 +7,8 @@ function fizzBuzz(n){
     console.log("Introduce un numero entero");
   }else if(n<0){
     console.log("Introduce un entero positivo");
+  }else if(isNaN(n)){
+    console.log("Introduce un numero");
   }else{
     for(let i=1 ; i <= n ; i++){
       multiplo3 = i%3;
